@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.maria {
+  height: 100px;
+  width: auto;
+  border-radius: 12px;
+  transform: scale(1.6);
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2);
+  /* flex: 0; */
+}
+
+.carousel {
+  background-color: #087f5b;
+  width: 450px;
+  height: 150px;
+  font-style: sansserif;
+  margin: 100px auto;
+  border-radius: 8px;
+
+  display: flex;
+  align-items: center;
+  gap: 47px;
+  line-height: 1;
+  font-family: sans-serif;
+  padding: 32px;
+  padding-left: 52px;
+  padding-right: 35px;
+  position: relative;
+}
+
+button {
+  background-color: white;
+  color: white;
+  height: 24px;
+  width: auto;
+}
+.btn-tsm {
+  width: 30px;
+  height: 30px;
+  box-shadow: 0 0px 24px rgba(0, 0, 0, 0.17);
+  border-radius: 50%;
+  border: none;
+
+  background-color: #fff;
+  cursor: pointer;
+  position: absolute;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn--left {
+  /* In relation to PARENTE ELEMENT */
+  left: 0;
+  top: 50%;
+
+  /* In relation to ELEMENT ITSELF */
+  transform: translate(-50%, -50%);
+}
+
+.btn--right {
+  right: 0;
+  top: 50%;
+
+  transform: translate(50%, -50%);
+}
+
+.btn-icon {
+  height: 24px;
+  width: 24px;
+  stroke: #087f5b;
+}
+
+.blockquote {
+  flex: 1;
+}
+.text-tsm {
+  font-size: 11px;
+  /* font-weight: bold; */
+  line-height: 1.5;
+  margin-bottom: 15px;
+  color: #e6fcf5;
+  letter-spacing: 0.8px;
+}
+.author-tsm {
+  font-size: 12px;
+  margin-bottom: 4px;
+  color: #b6d9cd;
+}
+.job-tsm {
+  font-size: 10px;
+  color: #a3d6c5;
+}
+
+.dots-tsm {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-20%, 25px);
+  display: flex;
+  gap: 7px;
+}
+
+.dot-tsm {
+  border: 3px solid #087f5b;
+  padding: 5px 5px;
+  background: white;
+  width: 3px;
+  height: 3px;
+  border-radius: 100px;
+  transform: scale(0.5, 0.5);
+  cursor: pointer;
+}
+
+/* .dots {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 32px);
+
+  display: flex;
+  gap: 12px;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  background-color: #fff;
+  border: 2px solid #087f5b;
+  border-radius: 50%;
+  cursor: pointer;
+}*/
+
+.dot--fill {
+  background-color: #087f5b;
+}
